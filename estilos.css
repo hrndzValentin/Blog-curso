@@ -1,18 +1,28 @@
 body{
-    color: blue;
     text-align: center;
     font-family: "Arial";
 }
 
 .contenedor{
+    display: grid;
     background-color: aliceblue;
-    border: black;
-    width: auto;
+    border: 0.02px solid black;
     place-content: center;
+    width: 2fr;
 }
 
 .titulo{
 
     font-size: 3rem;
     color: black;
+}
+
+#cabecera{
+    display: grid;
+    background: blue;
+    font-size: 2rem;
+    color: cornsilk;
+    border: ghostwhite;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.75);
+
 }
