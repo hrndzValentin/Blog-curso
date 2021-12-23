@@ -3,3 +3,16 @@ body{
     text-align: center;
     font-family: "Arial";
 }
+
+.contenedor{
+    background-color: aliceblue;
+    border: black;
+    width: auto;
+    place-content: center;
+}
+
+.titulo{
+
+    font-size: 3rem;
+    color: black;
+}
